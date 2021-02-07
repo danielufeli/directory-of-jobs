@@ -1,0 +1,83 @@
+.bg-header {
+  background-color: #d3564a;
+  border-bottom: 2px solid #e35c4c;
+}
+
+.header-menu li a {
+  font-size: 14px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header-menu li a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.header-menu li {
+  color: #fff;
+  padding: 0 10px;
+  float: left;
+  list-style: none;
+}
+
+.header-banner {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+      to right,
+      rgba(120, 120, 120, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url('../images/job_bg.jpg');
+  height: 450px;
+  background-size: cover;
+}
+
+.header-search {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.header-search h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.header-search button {
+  background-color: #f61602;
+  border: none;
+  text-transform: uppercase;
+}
+
+.hiw {
+  font-size: 16px;
+  background-color: #ced2d9;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.w-500 {
+  width: 60%;
+}
+
+.h-b-txt {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-search button {
+    width: 100%;
+    margin-top: 5px;
+  }
+}
