@@ -3,6 +3,47 @@
   border-bottom: 2px solid #e35c4c;
 }
 
+.footermenu a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footermenu-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  text-align: center;
+  background: #000;
+  border: 1px solid #d9d9d9;
+}
+
+.about a {
+  color: #999;
+  text-decoration: none;
+}
+
+.subf a {
+  color: #f36253;
+  text-decoration: none;
+}
+
+.company-covered a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .header-menu li a {
   font-size: 14px;
   color: #fff;
@@ -10,6 +51,20 @@
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.footermenu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.subf a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.company-covered a:hover {
+  text-decoration: underline;
 }
 
 .header-menu li a:hover {
@@ -27,7 +82,8 @@
 .header-banner {
   display: flex;
   align-items: center;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to right,
       rgba(120, 120, 120, 0.8),
       rgba(0, 0, 0, 0.8)
@@ -94,38 +150,9 @@
   border-top: 1px solid #fff;
 }
 
-.footermenu a {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  float: left;
-  color: #fff;
-  text-align: center;
-  padding: 14px 25px;
-  text-decoration: none;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.footermenu a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
 .footermenu a.active {
   background-color: #4caf50;
   color: white;
-}
-
-.footermenu-centered a {
-  float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  text-align: center;
-  background: #000;
-  border: 1px solid #d9d9d9;
 }
 
 .footermenu-right {
@@ -171,11 +198,6 @@ footer {
   background-color: #fff;
 }
 
-.about a {
-  color: #999;
-  text-decoration: none;
-}
-
 .subf {
   font-size: 14px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -198,16 +220,6 @@ footer {
   background-color: #000;
   color: #fff;
   border: 1px solid #fff;
-}
-
-.subf a {
-  color: #f36253;
-  text-decoration: none;
-}
-
-.subf a:hover {
-  color: #fff;
-  text-decoration: underline;
 }
 
 .copy {
@@ -259,17 +271,6 @@ footer {
 
 .search-result {
   color: #5e5959;
-}
-
-.company-covered a {
-  font-size: 16px;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.company-covered a:hover {
-  text-decoration: underline;
 }
 
 .company-covered-img {
