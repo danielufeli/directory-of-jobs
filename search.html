@@ -52,135 +52,95 @@
     </header>
 
     <main>
-      <div class="header-banner">
-        <div class="container w-500">
-          <form action="search.html">
-            <div class="h-b-txt text-center">
-              Directory of Jobs... Your gateway to a rewarding Career.
-            </div>
-            <div class="header-search p-5 mt-2">
-              <h5>Search by Keyword:</h5>
-              <div class="input-group">
-                <input type="text" id="search" class="form-control" />
-                <button type="submit" class="btn btn-primary">Search</button>
+      <div class="h-page-banner">
+        <div class="page-header">
+          <div class="container">
+            <form class="p-h-form" action="/action_page.php">
+              <div class="row">
+                <p class="text-center">
+                  Filter by Company name, title, skill, city, state
+                </p>
               </div>
-            </div>
-          </form>
-          <div class="text-center">
-            <button class="hiw mt-4 rounded p-2">How it works</button>
+              <div class="row g-3">
+                <div class="col">
+                  <label for="name">Company Name:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="First name"
+                    aria-label="First name"
+                  />
+                </div>
+                <div class="col">
+                  <label for="name">Title:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last name"
+                    aria-label="Last name"
+                  />
+                </div>
+                <div class="col">
+                  <label for="name">Skill:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last name"
+                    aria-label="Last name"
+                  />
+                </div>
+                <div class="col">
+                  <label for="name">City:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last name"
+                    aria-label="Last name"
+                  />
+                </div>
+                <div class="col">
+                  <label for="name">State:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last name"
+                    aria-label="Last name"
+                  />
+                </div>
+                <div class="col-4">
+                  <button type="submit" class="btn btn-primary">Search</button>
+                  <button type="reset" class="btn btn-danger">
+                    <i class="fas fa-edit"></i>Clear filter
+                  </button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
-
-      <section class="howitworks mt-4">
-        <h2 class="text-center mb-4">
-          Jobs Directory works in four simple steps.
-        </h2>
-        <div class="container">
+      <section class="search-result">
+        <div class="container mb-5">
+          <h5 class="text-center mb-4">Search Results Found 7 Companies</h5>
           <div class="row">
-            <div class="col-sm text-center">
-              <i class="fas fa-search-location fa-2x"></i>
-              <h4>1- search:</h4>
-              <p>
-                It's Simple, On Jobs Directory homepage, enter the designation
-                of the job you are looking for and click on search.
-                Alternatively click on the search link on the top menu to view
-                the list of all jobs available.
-              </p>
-            </div>
-            <div class="col-sm text-center">
-              <i class="fas fa-map-marked-alt fa-2x"></i>
-              <h4>2- Locate</h4>
-              <p>
-                Get to see where the jobs are located by clicking on the company
-                profile. It's even more exciting. You can get the directions
-                from anywhere in the country.
-              </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm text-center">
-              <i class="fas fa-file-signature fa-2x"></i>
-              <h4>3- Apply</h4>
-              <p>
-                Apply for jobs at the company of your chioce, Click on the APPLY
-                button to get the application form. We also follow up on the
-                application to make sure you get a reply on time.
-              </p>
-            </div>
-            <div class="col-sm text-center">
-              <i class="fas fa-umbrella-beach fa-2x"></i>
-              <h4>4- Relax</h4>
-              <p>
-                Once you get the job, you can now relax. You can check out our
-                blog to see what we recommend when job hunting.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="about">
-        <div class="find-a-job p-5">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-8 align-self-sm-center">
-                <h5 class="mb-4">Over 10,000 jobs registered with us</h5>
-                <p>Find a job by using our filtered search engine</p>
-                <button class="hiw mt-4 rounded text-center p-2">
-                  <a href="search.html">Find a Job</a>
-                </button>
-              </div>
-              <div class="col-sm-4">
-                <img
-                  src="asset/images/location.jpg"
-                  class="rounded-circle w-75"
-                  alt="location"
-                />
+            <div class="col-sm company-covered me-3">
+              <div class="company-covered-img">
+                <h3 class="text-center mt-5">
+                  <a href="#">Name: Demo 1</a>
+                </h3>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="no-need p-5">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-8 align-self-sm-center">
-                <h5 class="mb-4">
-                  No need to take 3 Matatus to find a job in the country
-                </h5>
-                <p>
-                  Just press or click on the search button and You're all set
-                </p>
-                <button class="hiw mt-4 rounded text-center p-2">
-                  <a href="search.html">Find a job near you</a>
-                </button>
-              </div>
-              <div class="col-sm-4">
-                <img
-                  src="asset/images/find_job.jpg"
-                  class="rounded-circle w-75"
-                  alt="location"
-                />
+            <div class="col-sm company-covered me-3">
+              <div class="company-covered-img">
+                <h3 class="text-center mt-5">
+                  <a href="#">Name: Demo 2</a>
+                </h3>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="anytime p-5">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-8 align-self-sm-center">
-                <h5 class="mb-4">Anytime Anywhere Any way!</h5>
-                <p>
-                  Very convenient platforms that cut across any device including
-                  our mobile ready web app and our mobile app coming soon to
-                  your app store.
-                </p>
-              </div>
-              <div class="col-sm-4">
-                <img
-                  src="asset/images/screen.jpg"
-                  class="rounded-circle w-75"
-                  alt="location"
-                />
+            <div class="col-sm company-covered me-3">
+              <div class="company-covered-img">
+                <h3 class="text-center mt-5">
+                  <a href="#">Name: Finally the Slider</a>
+                </h3>
               </div>
             </div>
           </div>

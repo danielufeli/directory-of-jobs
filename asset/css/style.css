@@ -171,6 +171,11 @@ footer {
   background-color: #fff;
 }
 
+.about a {
+  color: #999;
+  text-decoration: none;
+}
+
 .subf {
   font-size: 14px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -225,6 +230,58 @@ footer {
 
 .fa:hover {
   opacity: 0.7;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  background-color: #eee;
+  height: 200px;
+}
+
+.p-h-form {
+  display: inline;
+}
+
+.h-page-banner {
+  background-color: #fff;
+  padding: 50px 0 50px 0;
+}
+
+.company-covered {
+  position: relative;
+  padding: 30px;
+  height: 300px;
+  background-color: #d85e4b;
+  color: #fff;
+  font-weight: bold;
+}
+
+.search-result {
+  color: #5e5959;
+}
+
+.company-covered a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.company-covered a:hover {
+  text-decoration: underline;
+}
+
+.company-covered-img {
+  background: url('../images/company.png');
+  opacity: 0.8;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 @media only screen and (max-width: 1024px) {
