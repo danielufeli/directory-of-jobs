@@ -1,0 +1,345 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-header {
+  background-color: #d3564a;
+  border-bottom: 2px solid #e35c4c;
+}
+
+.footermenu a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footermenu-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  text-align: center;
+  background: #000;
+  border: 1px solid #d9d9d9;
+}
+
+.about a {
+  color: #999;
+  text-decoration: none;
+}
+
+.subf a {
+  color: #f36253;
+  text-decoration: none;
+}
+
+.company-covered a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header-menu li a {
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footermenu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.subf a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.company-covered a:hover {
+  text-decoration: underline;
+}
+
+.header-menu li a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.header-menu li {
+  color: #fff;
+  padding: 0 10px;
+  float: left;
+  list-style: none;
+}
+
+.header-banner {
+  align-items: center;
+  background-image:
+    linear-gradient(
+      to right,
+      rgba(120, 120, 120, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url('../images/job_bg.jpg');
+  height: 450px;
+  background-size: cover;
+}
+
+.header-search {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.header-search h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.header-search button {
+  background-color: #f61602;
+  border: none;
+  text-transform: uppercase;
+}
+
+.hiw {
+  font-size: 16px;
+  background-color: #ced2d9;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.w-500 {
+  width: 60%;
+}
+
+.h-b-txt {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.find-a-job {
+  background-color: #e27f66;
+}
+
+.no-need {
+  background-color: #98a4a5;
+}
+
+.anytime {
+  background-color: #519cd8;
+}
+
+.footermenu {
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+}
+
+.footermenu a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.footermenu-right {
+  float: right;
+}
+
+footer {
+  background-color: #000;
+}
+
+.howitworks {
+  padding: 22px;
+}
+
+.howitworks h2 {
+  font-size: 18px;
+  color: #d94623;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.howitworks h4 {
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 15px 0 15px 0;
+}
+
+.howitworks p {
+  font-size: 14px;
+  padding: 0 75px 30px 75px;
+}
+
+.about {
+  color: #fff;
+}
+
+.about button {
+  color: #999;
+  background-color: #fff;
+}
+
+.subf {
+  font-size: 14px;
+  color: #fff;
+}
+
+.subf h5 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.subf button {
+  background-color: #444;
+  border: none;
+  border: 1px solid #fff;
+}
+
+.subf input[type='text'] {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.copy {
+  color: #9b9b9b;
+  background-color: #1f1f1f;
+}
+
+.copy p {
+  font-size: 12px;
+}
+
+.fa {
+  color: #666;
+  font-size: 20px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.page-header {
+  align-items: center;
+  background-color: #eee;
+}
+
+.p-h-form {
+  display: inline;
+}
+
+.h-page-banner {
+  background-color: #fff;
+  padding: 50px 0 50px 0;
+}
+
+.company-covered {
+  position: relative;
+  padding: 30px;
+  height: 300px;
+  background-color: #d85e4b;
+  color: #fff;
+  font-weight: bold;
+}
+
+.search-result {
+  color: #5e5959;
+}
+
+.company-covered-img {
+  background: url('../images/company.png');
+  opacity: 0.8;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.map {
+  width: 100%;
+  height: 450px;
+  border: 0;
+}
+
+.search-form-input {
+  flex: 1;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+.apply {
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 1024px) {
+  .d-d-none {
+    display: none;
+  }
+
+  .search-row {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .head-row {
+    flex-direction: column;
+  }
+
+  .about-row {
+    text-align: center;
+  }
+
+  .header-search button {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .footermenu a,
+  .footermenu-right {
+    float: none;
+    display: block;
+  }
+
+  .howitworks {
+    padding: 0;
+  }
+
+  .w-500 {
+    width: 100%;
+  }
+
+  .header-banner h5 {
+    font-size: 14px;
+  }
+
+  .apply {
+    justify-content: center;
+  }
+}

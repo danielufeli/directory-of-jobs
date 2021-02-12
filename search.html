@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <title>Directory of Jobs</title>
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-header">
+        <div class="container d-flex head-row">
+          <a class="text-center" href="index.html">
+            <img src="asset/images/logo.png" alt="Logo" />
+          </a>
+          <div class="topmenubar">
+            <ul class="header-menu ms-auto">
+              <li class="nav-item">
+                <a href="#">
+                  <i class="fas fa-search"></i>
+                  <span class="d-d-none">Jobs</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#">
+                  <i class="far fa-user"></i>
+                  <span class="d-d-none">About</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#">
+                  <i class="fas fa-rss"></i>
+                  <span class="d-d-none">Blog </span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#">
+                  <i class="fas fa-bars"></i>
+                  <span class="d-d-none">More...</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="h-page-banner">
+        <div class="d-flex page-header pb-5 pt-5">
+          <div class="container">
+            <form class="p-h-form" action="/">
+              <div class="row">
+                <h5 class="text-center mb-5">
+                  Filter by Company name, title, skill, city, state
+                </h5>
+              </div>
+              <div class="d-flex search-row">
+                <div class="col me-1">
+                  <label for="name">Company Name:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Company name"
+                    id="name"
+                  />
+                </div>
+                <div class="col me-1">
+                  <label for="title">Title:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Title"
+                    id="title"
+                  />
+                </div>
+                <div class="col me-1">
+                  <label for="skill">Skill:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="skill"
+                    id="skill"
+                  />
+                </div>
+                <div class="col me-1">
+                  <label for="city">City:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="City"
+                    id="city"
+                  />
+                </div>
+                <div class="col me-1">
+                  <label for="state">State:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="State"
+                    id="state"
+                  />
+                </div>
+                <div class="col-4">
+                  <br />
+                  <button type="submit" class="btn btn-primary">Search</button>
+                  <button type="reset" class="btn btn-danger">
+                    <i class="fas fa-edit"></i>Clear filter
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <section class="search-result">
+        <div class="container mb-5">
+          <h1 class="text-center mb-4">Search Results Found 7 Companies</h1>
+          <div class="row">
+            <div class="col-sm company-covered me-3 mb-2">
+              <div class="company-covered-img">
+                <h3 class="text-center mt-5">
+                  <a href="details.html">Name: Demo 1</a>
+                </h3>
+              </div>
+            </div>
+            <div class="col-sm company-covered me-3 mb-2">
+              <div class="company-covered-img">
+                <h3 class="text-center mt-5">
+                  <a href="details.html">Name: Demo 2</a>
+                </h3>
+              </div>
+            </div>
+            <div class="col-sm company-covered me-3 mb-2">
+              <div class="company-covered-img">
+                <h3 class="text-center mt-5">
+                  <a href="details.html">Name: Finally the Slider</a>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container p-4">
+        <div class="footermenu">
+          <div class="footermenu-centered d-d-none">
+            <a href="#"><i class="fas fa-map-marker-alt bg-dark"></i></a>
+          </div>
+
+          <a href="index.html">Home</a>
+          <a href="search.html">Search</a>
+          <a href="#">About us</a>
+          <a href="#">Advertise</a>
+
+          <div class="footermenu-right">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Blog</a>
+            <a href="#">Google+</a>
+          </div>
+        </div>
+        <div class="subf row mt-5">
+          <div class="col-sm text-center">
+            <h5>Subscribe</h5>
+            <div class="input-group">
+              <input
+                type="text"
+                id="email"
+                class="form-control"
+                placeholder="you@example.com"
+              />
+              <button type="button" class="btn btn-primary">send</button>
+            </div>
+          </div>
+          <div class="col-sm text-center">
+            <h5>Contact</h5>
+            <p>Have a Question or Feedback? email us on:</p>
+            <a href="mailto:info@jobdirectory.com">info@jobdirectory.com</a>
+          </div>
+          <div class="col-sm text-center">
+            <h5>About</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nobis
+              laudantium quos iste omnis modi repellat tenetur voluptatibus!
+              <a href="#">Learn More</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="copy p-2">
+        <div class="container mt-3">
+          <div class="row">
+            <div class="col-sm">
+              <div>
+                <a href="#" class="fa me-2"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" class="fa me-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="fa me-2"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="fa me-2"><i class="fab fa-tumblr"></i></a>
+                <a href="#" class="fa me-2"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-sm d-flex justify-content-end">
+              <p>&copy; Jobs Directory 2021, All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
