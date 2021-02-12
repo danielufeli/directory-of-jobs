@@ -23,7 +23,7 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-header">
-        <div id="navbar_top" class="container">
+        <div class="container d-flex head-row">
           <a class="text-center" href="index.html">
             <img src="asset/images/logo.png" alt="Logo" />
           </a>
@@ -31,18 +31,18 @@
             <ul class="header-menu ms-auto">
               <li class="nav-item">
                 <a href="#">
-                  <i class="fas fa-search"></i> <span>Jobs</span>
+                  <i class="fas fa-search"></i> <span class="d-d-none">Jobs</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#"> <i class="far fa-user"></i> <span>About</span> </a>
+                <a href="#"> <i class="far fa-user"></i> <span class="d-d-none">About</span> </a>
               </li>
               <li class="nav-item">
-                <a href="#"> <i class="fas fa-rss"></i> <span>Blog </span></a>
+                <a href="#"> <i class="fas fa-rss"></i> <span class="d-d-none">Blog </span></a>
               </li>
               <li class="nav-item">
                 <a href="#">
-                  <i class="fas fa-bars"></i> <span>More...</span>
+                  <i class="fas fa-bars"></i> <span class="d-d-none">More...</span>
                 </a>
               </li>
             </ul>
@@ -55,7 +55,7 @@
       <section class="search-details">
         <div class="container mb-5">
           <div class="shadow p-3 mt-5 mb-5 bg-white rounded">
-            <h5 class=""><i class="fab fa-google"></i> GOOGLE INC</h5>
+            <h1 class=""><i class="fab fa-google"></i> GOOGLE INC</h1>
             <div class="row pe-5 ps-5">
               <div class="col-sm border me-3 h-100">
                 <p>Location:</p>
@@ -90,14 +90,14 @@
             </div>
             <div class="row">
               <div class="col-sm-12">
-                <div class="apply mt-3 d-flex justify-content-end">
+                <div class="mt-3 d-flex apply">
                   <button type="button" class="btn btn-primary">
                     <i class="fas fa-envelope"></i> Apply
                   </button>
                 </div>
               </div>
               <div class="col-sm-12">
-                <div class="apply mt-3 d-flex justify-content-end">
+                <div class="mt-3 d-flex apply">
                   <p>
                     <i class="fas fa-phone-alt"></i> Tel: +2348092205000 |
                     <i class="fas fa-desktop"></i> Website: ST.com |
@@ -117,6 +117,10 @@
               releases
             </p>
           </div>
+          <iframe
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d507365.3245583991!2d3.0037633095566476!3d6.547977480168733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos!5e0!3m2!1sen!2sng!4v1613040016735!5m2!1sen!2sng"
+          ></iframe>
         </div>
       </section>
     </main>
@@ -124,7 +128,7 @@
     <footer>
       <div class="container p-4">
         <div class="footermenu">
-          <div class="footermenu-centered">
+          <div class="footermenu-centered d-d-none">
             <a href="#"><i class="fas fa-map-marker-alt bg-dark"></i></a>
           </div>
 

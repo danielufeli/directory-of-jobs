@@ -23,7 +23,7 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-header">
-        <div id="navbar_top" class="container">
+        <div class="container d-flex head-row">
           <a class="text-center" href="index.html">
             <img src="asset/images/logo.png" alt="Logo" />
           </a>
@@ -31,18 +31,26 @@
             <ul class="header-menu ms-auto">
               <li class="nav-item">
                 <a href="#">
-                  <i class="fas fa-search"></i> <span>Jobs</span>
+                  <i class="fas fa-search"></i>
+                  <span class="d-d-none">Jobs</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#"> <i class="far fa-user"></i> <span>About</span> </a>
-              </li>
-              <li class="nav-item">
-                <a href="#"> <i class="fas fa-rss"></i> <span>Blog </span></a>
+                <a href="#">
+                  <i class="far fa-user"></i>
+                  <span class="d-d-none">About</span>
+                </a>
               </li>
               <li class="nav-item">
                 <a href="#">
-                  <i class="fas fa-bars"></i> <span>More...</span>
+                  <i class="fas fa-rss"></i>
+                  <span class="d-d-none">Blog </span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#">
+                  <i class="fas fa-bars"></i>
+                  <span class="d-d-none">More...</span>
                 </a>
               </li>
             </ul>
@@ -53,16 +61,16 @@
 
     <main>
       <div class="h-page-banner">
-        <div class="page-header">
+        <div class="d-flex page-header pb-5 pt-5">
           <div class="container">
-            <form class="p-h-form" action="/action_page.php">
+            <form class="p-h-form" action="/">
               <div class="row">
                 <h5 class="text-center mb-5">
                   Filter by Company name, title, skill, city, state
                 </h5>
               </div>
-              <div class="row g-3">
-                <div class="col">
+              <div class="d-flex search-row">
+                <div class="col me-1">
                   <label for="name">Company Name:</label>
                   <input
                     type="text"
@@ -71,7 +79,7 @@
                     id="name"
                   />
                 </div>
-                <div class="col">
+                <div class="col me-1">
                   <label for="title">Title:</label>
                   <input
                     type="text"
@@ -80,7 +88,7 @@
                     id="title"
                   />
                 </div>
-                <div class="col">
+                <div class="col me-1">
                   <label for="skill">Skill:</label>
                   <input
                     type="text"
@@ -89,7 +97,7 @@
                     id="skill"
                   />
                 </div>
-                <div class="col">
+                <div class="col me-1">
                   <label for="city">City:</label>
                   <input
                     type="text"
@@ -98,7 +106,7 @@
                     id="city"
                   />
                 </div>
-                <div class="col">
+                <div class="col me-1">
                   <label for="state">State:</label>
                   <input
                     type="text"
@@ -108,6 +116,7 @@
                   />
                 </div>
                 <div class="col-4">
+                  <br />
                   <button type="submit" class="btn btn-primary">Search</button>
                   <button type="reset" class="btn btn-danger">
                     <i class="fas fa-edit"></i>Clear filter
@@ -120,23 +129,23 @@
       </div>
       <section class="search-result">
         <div class="container mb-5">
-          <h5 class="text-center mb-4">Search Results Found 7 Companies</h5>
+          <h1 class="text-center mb-4">Search Results Found 7 Companies</h1>
           <div class="row">
-            <div class="col-sm company-covered me-3">
+            <div class="col-sm company-covered me-3 mb-2">
               <div class="company-covered-img">
                 <h3 class="text-center mt-5">
                   <a href="details.html">Name: Demo 1</a>
                 </h3>
               </div>
             </div>
-            <div class="col-sm company-covered me-3">
+            <div class="col-sm company-covered me-3 mb-2">
               <div class="company-covered-img">
                 <h3 class="text-center mt-5">
                   <a href="details.html">Name: Demo 2</a>
                 </h3>
               </div>
             </div>
-            <div class="col-sm company-covered me-3">
+            <div class="col-sm company-covered me-3 mb-2">
               <div class="company-covered-img">
                 <h3 class="text-center mt-5">
                   <a href="details.html">Name: Finally the Slider</a>
@@ -151,7 +160,7 @@
     <footer>
       <div class="container p-4">
         <div class="footermenu">
-          <div class="footermenu-centered">
+          <div class="footermenu-centered d-d-none">
             <a href="#"><i class="fas fa-map-marker-alt bg-dark"></i></a>
           </div>
 

@@ -33,13 +33,13 @@ To get a local copy up and running follow these simple example steps.
 
 - Github: [@danielufeli](https://github.com/danielufeli)
 - Twitter: [@danielufeli](https://twitter.com/danielufeli)
-- Linkedin: [linkedin](https://www.linkedin.com/in/danielufeli/)
+- Linkedin: [danielufeli](https://www.linkedin.com/in/danielufeli/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/danielufeli/directory-of-jobs/issues).
 
 ## 📝 License
 
